@@ -1,0 +1,24 @@
+{
+  "name": "kon-slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostyan5/kon-slack-bot.git"
+  },
+  "author": "Konstantin Klitenik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostyan5/kon-slack-bot/issues"
+  },
+  "homepage": "https://github.com/kostyan5/kon-slack-bot#readme",
+  "dependencies": {
+    "@slack/web-api": "^6.0.0",
+    "dotenv": "^8.2.0"
+  }
+}
