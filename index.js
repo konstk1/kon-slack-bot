@@ -21,7 +21,7 @@ async function findDeleted(userList, sinceDaysAgo = 1) {
 
   // console.log('deleted :>> ', deletedUsers.slice(0, 5));
 
-  let message = 'No one deactivated today';
+  let message = 'No one deactivated in last 24 hours';
   if (deletedUsers.length > 0) {
     message = deletedUsers.map(u => `${u.realName} (${u.name}) deactivated on ${u.updated}`).join('\n')
   }
